@@ -31,10 +31,10 @@ Abaixo um breve resumo de cada projeto:
   
 - Projeto "Standard" (Integração).  
 1- "WeApi" - utilizado para colocar as apis.  
-2- "Application" - utilizado para isolar a comunicação entre o WebApi e meu Domain.  
+2- "Application" - utilizado para isolar a comunicação entre o WebApi e Domain.  
 3- "Messages" - utilizado para estabelecer os contratos da Api.  
-4- "Domain" - utilizado para armazenar as regras do meu negócio.  
-5- "Models" - utilizado para mapeamento do meu domínio de banco.  
+4- "Domain" - utilizado para armazenar as regras do negócio.  
+5- "Models" - utilizado para mapeamento do domínio de banco.  
 6- "DependencyInjection" - utilizado para injeção de dependência das minhas interfaces e classes concretas, separado pois fala com todos os projetos.  
 7- "Infrastructure" - utilizado para acesso ao banco.  
 8- "ServiceProvider" - utilizado para serviços externos a minha aplicação, no caso o serviço de e-mail.  
@@ -44,7 +44,7 @@ Abaixo um breve resumo de cada projeto:
 **Resposta:** Não houve tempo para implementar.
 
 - Notificar por e-mail problemas gerados no processo.  
-**Resposta:** Criado um projeto "ServiceProvider" com uma classe chamada "NotificacaoEmailServiceProvider" para comunicar aos interessados os possiveis problemas ocorridos na aplicação. Lembrando que a documentação do desafio dizia que "Para envio de e-mails, considere que já existe um serviço para este fim."
+**Resposta:** Criado um projeto "ServiceProvider" com uma classe chamada "NotificacaoEmailServiceProvider" para comunicar aos interessados os possíveis problemas ocorridos na aplicação. Lembrando que a documentação do desafio dizia que "Para envio de e-mails, considere que já existe um serviço para este fim."
 
 - Fazer validação de checksum.  
 **Resposta:** Criei na classe "ArquivoEntityService" um método "public IDomainResult<bool> ValidarCheckSum()" para realizar essa operação, mas não deu tempo para implementar.
