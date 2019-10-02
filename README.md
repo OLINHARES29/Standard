@@ -70,54 +70,55 @@ Response
 }
 
 **Operação de Mover dos Arquivos**
-[Post]
-Url: {Localhost}/api/Arquivo/mover
-Request - Body
-{
-	"caminhoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem",
-  "caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"
-}
-Response
-{
-    "Data": true,
-    "StatusCode": 200,
-    "Messages": [
-        "Arquivo(s) movido(s) com sucesso."
-    ]
+[Post]  
+Url: {Localhost}/api/Arquivo/mover  
+Request - Body  
+{  
+	"caminhoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem",  
+	"caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"  
+}  
+
+Response  
+{  
+	"Data": true,  
+	"StatusCode": 200,  
+	"Messages": [  
+	"Arquivo(s) movido(s) com sucesso."  
+	]  
 }
 
 **Operação de Entregar dos Arquivos**
-[Post]
-Url: {Localhost}/api/Arquivo/entregar
-Request - Body
-{
-	"caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"
-}
+[Post]  
+Url: {Localhost}/api/Arquivo/entregar  
+Request - Body  
+{  
+	"caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"  
+}  
 
-Response
-{
-    "Data": true,
-    "StatusCode": 200,
-    "Messages": [
-        "Arquivo(s) entregue(s) com sucesso."
-    ]
+Response  
+{  
+	"Data": true,  
+	"StatusCode": 200,  
+	"Messages": [  
+	"Arquivo(s) entregue(s) com sucesso."  
+	]  
 }
 
 **Operação de Exclusão dos Arquivos**
-[Delete]
-Url: {Localhost}/api/Arquivo
-Request - Body
-{
-	"caminhoDestinoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem"
-}
+[Delete]  
+Url: {Localhost}/api/Arquivo  
+Request - Body  
+{  
+	"caminhoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem"  
+}  
 
-Response
-{
-    "Data": true,
-    "StatusCode": 200,
-    "Messages": [
-        "Arquivo(s) deletado(s) com sucesso."
-    ]
+Response  
+{  
+	"Data": true,  
+	"StatusCode": 200,  
+	"Messages": [  
+	"Arquivo(s) deletado(s) com sucesso."  
+	]  
 }
 
 # Autor
