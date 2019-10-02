@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  standard.webapi:
+    image: microservice.standard
+    build:
+      context: .
+      dockerfile: Standard.WebApi/Dockerfile
+    container_name: microservice.Standard

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Standard.Domain\Standard.Domain.csproj" />
+    <ProjectReference Include="..\Standard.Messages\Standard.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Standard.Framework.Extension">
+      <HintPath>..\References\Standard.Framework.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Standard.Framework.Result">
+      <HintPath>..\References\Standard.Framework.Result.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

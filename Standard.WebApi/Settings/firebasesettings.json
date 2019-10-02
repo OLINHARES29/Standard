@@ -1,0 +1,7 @@
+{
+  "FirebaseClientOptions": {
+    "Uri": "https://Standard-charging.firebaseio.com",
+    "Child": "Arquivos",
+    "AuthToken": "DxiwFkdxCTCHCIFcezjVlvVQ8dagJbWOfbZZ4tht"
+  }
+}

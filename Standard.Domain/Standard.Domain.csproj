@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\TaskService\" />
+    <Folder Include="Concretes\TaskService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Standard.Infrastructure\Standard.Infrastructure.csproj" />
+    <ProjectReference Include="..\Standard.Models\Standard.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Standard.Framework.Result">
+      <HintPath>..\References\Standard.Framework.Result.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
