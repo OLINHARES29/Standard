@@ -29,15 +29,15 @@ Abaixo um breve resumo de cada projeto:
 6- "Utils" utilizado para colocar funcionalidades que podem ser comuns em outros projetos.  
 7- "Validator" utilizado para validar os atributos no momento da requisição ao projeto.
   
-- Projeto "Standard" (Integração).
-1- "WeApi" - utilizado para colocar as apis.
-2- "Application" - utilizado para isolar a comunicação entre o WebApi e meu Domain.
-3- "Messages" - utilizado para estabelecer os contratos da Api.
-4- "Domain" - utilizado para armazenar as regras do meu negócio.
-5- "Models" - utilizado para mapeamento do meu domínio de banco.
-6- "DependencyInjection" - utilizado para injeção de dependência das minhas interfaces e classes concretas, separado pois fala com todos os projetos.
-7- "Infrastructure" - utilizado para acesso ao banco.
-8- "ServiceProvider" - utilizado para serviços externos a minha aplicação, no caso o serviço de e-mail.
+- Projeto "Standard" (Integração).  
+1- "WeApi" - utilizado para colocar as apis.  
+2- "Application" - utilizado para isolar a comunicação entre o WebApi e meu Domain.  
+3- "Messages" - utilizado para estabelecer os contratos da Api.  
+4- "Domain" - utilizado para armazenar as regras do meu negócio.  
+5- "Models" - utilizado para mapeamento do meu domínio de banco.  
+6- "DependencyInjection" - utilizado para injeção de dependência das minhas interfaces e classes concretas, separado pois fala com todos os projetos.  
+7- "Infrastructure" - utilizado para acesso ao banco.  
+8- "ServiceProvider" - utilizado para serviços externos a minha aplicação, no caso o serviço de e-mail.  
 9- "UnitTest" - utilizado para os testes de projetos.
   
 - Entregar arquivo vai FTP ou SFTP.  
