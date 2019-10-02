@@ -51,22 +51,22 @@ Abaixo um breve resumo de cada projeto:
 **Resposta:** Realizei um teste na camada de domínio para representar também que caso não haja tempo, tente cobrir algo do seu domínio, pois é nesse projeto que estará as suas regras de negócio.
 
 # API
-**Operação de Copiar os Arquivos**
-[Post]
-Url: {Localhost}/api/Arquivo/copiar
-Request - Body
-{
-	"caminhoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem",
-  	"caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"
-}
+**Operação de Copiar os Arquivos**  
+[Post]  
+Url: {Localhost}/api/Arquivo/copiar  
+Request - Body  
+{  
+	"caminhoOrigem" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalOrigem",  
+	"caminhoDestino" : "C:\\Users\\Orlando\\Desktop\\Globo\\LocalDestino"  
+}  
 
-Response
-{
-    "Data": true,
-    "StatusCode": 200,
-    "Messages": [
-        "Arquivo(s) copiado(s) com sucesso."
-    ]
+Response  
+{  
+	"Data": true,  
+	"StatusCode": 200,  
+	"Messages": [  
+	"Arquivo(s) copiado(s) com sucesso."  
+	]  
 }
 
 **Operação de Mover dos Arquivos**
