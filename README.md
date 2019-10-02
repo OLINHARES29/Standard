@@ -21,12 +21,12 @@ Desafio de integração de arquivos em ambiente corporativo.
 
 - Projeto "Standard.Framework" encapsulo atividades que evitam repetir código e que apoiam as implementações no projeto Standard. 
 Abaixo um breve resumo de cada projeto: 
-  1- "Data" utilizado para funcionalidades de banco.
-  2- "Extension" utilizado para funcionalidades de manipulação de tipos.
-  3- "Filter" utilizado para trabalhar em conjunto com validator para exibição do resultado da funcionalidade.
-  4- "Http" utilizado para colocar detalhes de manipulação das chamadas Json, como Serialize e Deserialize.
-  5- "Result" utilizado para colocar os objetos que trafegam na comunicação entre as camadas do projeto.
-  6- "Utils" utilizado para colocar funcionalidades que podem ser comuns em outros projetos.
+  1- "Data" utilizado para funcionalidades de banco.  
+  2- "Extension" utilizado para funcionalidades de manipulação de tipos. 
+  3- "Filter" utilizado para trabalhar em conjunto com validator para exibição do resultado da funcionalidade. 
+  4- "Http" utilizado para colocar detalhes de manipulação das chamadas Json, como Serialize e Deserialize. 
+  5- "Result" utilizado para colocar os objetos que trafegam na comunicação entre as camadas do projeto. 
+  6- "Utils" utilizado para colocar funcionalidades que podem ser comuns em outros projetos. 
   7- "Validator" utilizado para validar os atributos no momento da requisição ao projeto.
   
 - Entregar arquivo vai FTP ou SFTP.
@@ -51,7 +51,7 @@ Abaixo um breve resumo de cada projeto:
   Resposta: Realizei um teste na camada de domínio para representar também que caso não haja tempo, tente cobrir algo do seu domínio, pois é nesse projeto que estará as suas regras de negócio.
 
 # API
--> Operação de Copiar os Arquivos
+**Operação de Copiar os Arquivos**
 [Post]
 Url: {Localhost}/api/Arquivo/copiar
 Request - Body
@@ -69,7 +69,7 @@ Response
     ]
 }
 
--> Operação de Mover dos Arquivos
+**Operação de Mover dos Arquivos**
 [Post]
 Url: {Localhost}/api/Arquivo/mover
 Request - Body
@@ -86,7 +86,7 @@ Response
     ]
 }
 
--> Operação de Entregar dos Arquivos
+**Operação de Entregar dos Arquivos**
 [Post]
 Url: {Localhost}/api/Arquivo/entregar
 Request - Body
@@ -103,7 +103,7 @@ Response
     ]
 }
 
--> Operação de Exclusão dos Arquivos
+**Operação de Exclusão dos Arquivos**
 [Delete]
 Url: {Localhost}/api/Arquivo
 Request - Body
