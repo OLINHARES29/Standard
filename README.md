@@ -49,8 +49,8 @@ Abaixo um breve resumo de cada projeto:
 - Fazer validação de checksum.  
 **Resposta:** Criei na classe "ArquivoEntityService" um método "public IDomainResult<bool> ValidarCheckSum()" para realizar essa operação, mas não deu tempo para implementar.
   
-- Docker.  
-**Resposta:** Não houve tempo para implementar, sendo assim decidi mostrar no projeto como seria a configuração desse item. Deverá ser inserido um projeto no WebApi chamado "Dockerfile" e um outro arquivo chamado "Docker-compose" na solution. Eles serão os responsáveis por subir os containers de nossa aplicação. *Para build do projeto você deve fazer o Unload do docker-compose*
+- Docker. **Para build do projeto você deve fazer o Unload do docker-compose.**
+**Resposta:** Não houve tempo para implementar, sendo assim decidi mostrar no projeto como seria a configuração desse item. Deverá ser inserido um projeto no WebApi chamado "Dockerfile" e um outro arquivo chamado "Docker-compose" na solution. Eles serão os responsáveis por subir os containers de nossa aplicação. 
   
 - Aplicar Https.  
 **Resposta:** Não houve tempo para implementar.
